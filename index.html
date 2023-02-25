@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <header id="header">
+        <div class="header__body">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__list-li"> <a href="#" class="list__link">Світлофор</a> </li>
+                    <li class="header__list-li"> <a href="#Info" class="list__link">Інформація</a> </li>
+                    <li class="header__list-li"> <a href="#Driver" class="list__link">Правило</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="block">
+            <div class="traffic-light">
+                <div class="dety"></div>
+                <div class="dety"></div>
+                <div class="dety"></div>
+            </div>
+        </div>
+        <div  class="block1"></div>
+        <div id="Info" class="main__block">
+            <h1 class="title">Правила дорожньго руху</h1>
+            <h2 class="main__block-info">Привіт , це не звичайний сайт з правилами дорожнього руху . Тут будуть приведені приклади і варіанти до вирішення цієї проблеми</h2>
+        </div>
+        <div id="Driver" class="main__block1">
+            <h2 class="driver__title">-----Водій-----</h2>
+            <p class="driver__info">
+                <span class="driver__span">Ситуація</span> <br>
+                Ви запізнюєтесь на роботу, щоб встигнути ви їдете по знайомій дорозі з великою швидкістю.
+                Але тут ви згадуєте, що попереду є пішохідний перехід, по якому можуть йти діти до школи/університет,
+                дорослі, які йдуть на роботу і теж можуть запізнюватися
+                і старі люди, які вирішили , просто , пройтись, погуляти. <br>
+                <span class="driver__span">Що б ви зробили в цій ситуації ?</span>
+            </p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDCO9qAYNQc7yxACiL1DygF15rJTHxcmyeknL5UjqaOIZBhwV9bsNV19-EjZ4zacun3M&usqp=CAU" alt="" class="driver__img">
+            <p class="driver__p">Варіанти</p>
+            <div class="driver__container">
+                <div class="driver__tabs">
+                    <nav class="tabs__items">
+                        <a href="#tab_01" class="tabs__item"><span>Найліпший</span></a>
+                        <a href="#tab_02" class="tabs__item"><span>Середній</span></a>
+                        <a href="#tab_03" class="tabs__item"><span>Найгірший</span></a>
+                    </nav>
+                    <div class="tabs__body">
+                        <div id="tab_01" class="tabs__block">
+                            <a href="#popup" class="p__popup">
+                           <span>Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                               то покарання отримаєте ви.</span>Ви вирішуєте зменшити швидкість, щоб встигнути затормозити,
+                            якщо побачите людину на пішохідному переході.
+                            </a>
+                        </div>
+                        <div id="tab_02" class="tabs__block">
+                            <a href="#popup1" class="p__popup">
+                            <span>Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                                то покарання отримаєте ви.</span> Ви вирішуєте, що ви продовжите їхати зі сталою швидкістю,
+                            а коли будете під'їжджати до пішохідного переходу, ви буду дивитися. Якщо там будуть йти люди, ви загальмуєте.
+                            Справа в тому , що швидкість в вас велика і ви можете не встигнути загальмувати, та ще й зір може підвести.
+                            </a>
+                        </div>
+                        <div id="tab_03" class="tabs__block">
+                            <a href="#popup2" class="p__popup">
+                            Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                            то покарання отримаєте ви. Ви вирішуєте проїхати на великій швидкості, так би мовити "на удачу",
+                            взагалі не будете дивитися, є там люди чи ні. В цей час ви можете подзвонити босу, сказати, що ви
+                            запізнюєтесь. А люди ? А вже час робочій, вже 8:05, всі повинні, чи вчитися, чи працювати.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div id="popup" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close"></a>
+                <div class="popup__title">Найліпший</div>
+                <div class="popup__text">
+                    <span>Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                     то покарання отримаєте ви.</span> Bи вирішуєте зменшити швидкість, щоб встигнути затормозити,
+                    якщо побачите людину на пішохідному переході.</div>
+                <div class="popup__title">Пояснення</div>
+                <div class="popup__text">
+                    Таким рішення ви показуєте, що вам інші люди не байдужі і ви, краще пропустите людей, а не приїдете вчасно на роботу.
+                    Цим ви показуєте, що ви розсудлива людина і не любите ризикувати. Ви зменшили швидкість до дозволеної в місті.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup1" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close"></a>
+                <div class="popup__title">Середній</div>
+                <div class="popup__text"><span>Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                                то покарання отримаєте ви.</span> Ви вирішуєте, що ви продовжите їхати зі сталою швидкістю,
+                    а коли будете під'їжджати до пішохідного переходу, ви буду дивитися. Якщо там будуть йти люди, ви загальмуєте.
+                    Справа в тому , що швидкість в вас велика і ви можете не встигнути загальмувати, та ще й зір може підвести.
+                </div>
+                <div class="popup__title">Пояснення</div>
+                <div class="popup__text">Таким рішення ви показуєте, що вам інші люди не байдужі, але ви, також, показуєте, що ви краще приїдете на роботу вчасно,
+                    ніж пропустите людей. Цим ви показуєте, що ви не розумієте важливість по ліміту швидкості </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close"></a>
+                <div class="popup__title">Найгірший</div>
+                <div class="popup__text"> Вам треба пам'ятати, що, якщо ви, когось, зіб'єте на пішохідному переході,
+                    то покарання отримаєте ви. Ви вирішуєте проїхати на великій швидкості, так би мовити "на удачу",
+                    взагалі не будете дивитися, є там люди чи ні. В цей час ви можете подзвонити босу, сказати, що ви
+                    запізнюєтесь. А люди ? А вже час робочій, вже 8:05, всі повинні, чи вчитися, чи працювати.
+                </div>
+                <div class="popup__title">Пояснення</div>
+                <div class="popup__text">Таким рішення ви показуєте, що вам інші люди байдужі і для вас краще приїдете вчасно на роботу, ніж пропустите людей.
+                    Цим ви показуєте, що ви не розсудлива людина. Ви не розумієте важливість по ліміту швидкості.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lenguage.js" ></script>
+</body>
+</html>
